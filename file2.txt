@@ -1,0 +1,12 @@
+./jobCommander setConcurrency 2
+./jobCommander poll running
+./jobCommander poll queued
+./jobCommander issuejob wget http://cachefly.cachefly.net/10mb.test
+./jobCommander issuejob testpr
+./jobCommander issuejob testpr
+./jobCommander issuejob testpr
+./jobCommander setConcurrency 1
+./jobCommander poll running
+./jobCommander poll queued
+./jobCommander issuejob wget http://cachefly.cachefly.net/10mb.test
+

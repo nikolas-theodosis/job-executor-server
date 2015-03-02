@@ -1,0 +1,10 @@
+./jobCommander issuejob testpr
+./jobCommander issuejob testpr
+./jobCommander issuejob testpr
+./jobCommander issuejob ps -A
+./jobCommander issuejob sleep 2
+./jobCommander setConcurrency 3
+./jobCommander poll running
+./jobCommander poll queued
+./jobCommander issuejob ls -l
+./jobCommander issuejob sleep 10
